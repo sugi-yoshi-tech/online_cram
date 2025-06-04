@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="LP.css" rel="stylesheet">
+</head>
+<body>
+    <script>
+        var password = prompt("パスワードを入力してください：");
+        if (password !== "yourpassword") {
+        document.write("パスワードが間違っています。");
+        document.body.style.display = "none";
+        }
+    </script>
+    <div class="article body">
+        <header>
+            <img src="cram_header1.jpg" alt="" class="">
+        </header>
+    </div>
+</body>
+</html>
